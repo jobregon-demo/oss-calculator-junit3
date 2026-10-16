@@ -17,6 +17,11 @@ class CalculatorTest {
     void testAdd() {
         assertEquals(10, calc.add(5, 5), "5 + 5 should be 10");
     }
+    @Test
+    @DisplayName("Test for function substract")
+    void testSubstract() {
+        assertEquals(-1, calc.subtract(4, 5), "4 - 5 should be -1");
+    }
 
     @Test
     @DisplayName("Testing function isPrime with 5")
